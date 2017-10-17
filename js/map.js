@@ -43,7 +43,7 @@ function init() {
 
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 11,
+        zoom: 16,
         scrollwheel: false,
         draggable: isDraggable,
         center: center,
