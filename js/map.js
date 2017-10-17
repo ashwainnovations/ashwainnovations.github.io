@@ -37,7 +37,7 @@ function init() {
 
     // Basic options for a simple Google Map
     // The latitude and longitude to center the map (always required)
-    var center = new google.maps.LatLng(40.70820, -74.00487);
+    var center = new google.maps.LatLng(12.9549847, 77.59148679999998);
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var isDraggable = $(document).width() > 1024 ? true : false; // If document (your website) is wider than 1024px, isDraggable = true, else isDraggable = false
 
@@ -116,11 +116,7 @@ function init() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions, center);
 
     var locations = [
-        ['<h6>Bondi Beach, East Coast</h6><p>This is where we are currently, the sun goes down...<br><i class="fa fa-coffee"></i> Visit us, we pay the coffee!</p>', 40.70820, -74.00487, 1],
-        ['<h6>Coogee Beach, East Coast</h6><p>Opening Hours<br><i class="fa fa-clock-o"></i> 8:00 to 22:00</p>', 40.66810, -73.94480, 2],
-        ['<h6>Manly Beach, East Coast</h6><p>Opening Hours<br><i class="fa fa-clock-o"></i> 6:00 to 14:00</p>', 40.76759, -73.96756, 3],
-        ['<h6>Maroubra Beach, East Coast</h6><p>Opening Hours<br><i class="fa fa-clock-o"></i> 12:00 to 23:30</p>', 40.66429, -74.11469, 4]
-    ];
+        ['<h6>Ashwa HQ</h6><p>This is where we are currently<br><i class="fa fa-coffee"></i> Visit us, we pay the coffee!</p>', 12.9549847, 77.59148679999998, 1]    ];
 
     var infowindow = new google.maps.InfoWindow();
 
