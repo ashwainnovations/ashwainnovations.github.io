@@ -43,7 +43,7 @@ function init() {
 
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 16,
+        zoom: 13,
         scrollwheel: false,
         draggable: isDraggable,
         center: center,
@@ -116,7 +116,7 @@ function init() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions, center);
 
     var locations = [
-        ['<h6>Ashwa HQ</h6><p>This is where we are currently<br><i class="fa fa-coffee"></i> Visit us, we pay the coffee!</p>', 12.9549847, 77.59148679999998, 1]    ];
+        ['<h6>Ashwa Innovations</h6><p class="map-p">This is where we are currently<br><i class="fa fa-coffee"></i> Visit us, we pay the coffee!</p>', 12.9549847, 77.59148679999998, 1]    ];
 
     var infowindow = new google.maps.InfoWindow();
 

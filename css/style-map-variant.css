@@ -302,7 +302,7 @@ a {
   color: #FFFFFF;
 }
 a:hover {
-  color: #00af94;
+  color: white;
   text-decoration: none !important;
   outline: none !important;
 }
@@ -335,6 +335,14 @@ em, i {
 }
 
 p {
+  margin-bottom: 50px;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.map-p {
   margin: 0;
   font-size: 1em;
   line-height: 1.6em;
@@ -362,7 +370,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 15px;
   margin-bottom: 30px;
 }
@@ -608,6 +616,13 @@ sup {
   max-width: 250px;
 }
 
+.info-logo {
+  margin-bottom: 50px;
+  left: 10%;
+  top: 5%;
+  max-width: 500px;
+}
+
 #left-side {
   position: fixed;
   left: 0;
@@ -685,7 +700,7 @@ sup {
   visibility: visible;
 }
 #right-side .content h1, #right-side .content h2, #right-side .content h3, #right-side .content h4, #right-side .content h5, #right-side .content h6 {
-  color: #757A86;
+  color: black;
 }
 #right-side .content h3 {
   font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
@@ -695,12 +710,12 @@ sup {
 #right-side .content span.separator {
   display: block;
   height: 2px;
-  background: #FFFFFF;
+  background: black;
   width: 100%;
   margin: 50px 0 60px;
 }
 #right-side .content p {
-  color: #747c83;
+  color: black;
 }
 #right-side .content .photo-line figure {
   padding: 0;
@@ -944,7 +959,7 @@ sup {
   text-align: center;
 }
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background-color: #00c8aa;
+  background-color: white;
 }
 
 .mCSB_scrollTools-left {
@@ -1349,15 +1364,14 @@ sup {
   text-align: center;
 }
 .info-contact .item-map .contact-item i {
-  color: #00c8aa;
+  color: black;
   font-size: 2em;
 }
 .info-contact .item-map .contact-item a {
-  font-weight: 600;
-  color: #757A86;
+  color: black;
 }
 .info-contact .item-map .contact-item a:hover {
-  color: #00c8aa;
+  color: black;
 }
 
 #contact-form {
@@ -1492,11 +1506,11 @@ sup {
   transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
 }
 .social-icons a:hover {
-  color: #00c8aa;
+  color: white;
   background: transparent;
 }
 .social-icons a:hover i {
-  color: #00c8aa;
+  color: white;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -1508,7 +1522,7 @@ sup {
 /* 7. Footer/Copyright ................. */
 /* ------------------------------------- */
 footer {
-  padding: 10px 0;
+  /* padding: 10px 0; */
   background: transparent;
   text-align: center;
 }
@@ -1517,7 +1531,7 @@ footer p {
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #757A86;
+  color: black;
 }
 
 /* ------------------------------------- */
