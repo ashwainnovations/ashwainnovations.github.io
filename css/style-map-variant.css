@@ -310,7 +310,7 @@ a:hover {
 a:active, a:focus {
   outline: none !important;
   text-decoration: none !important;
-  color: #FFFFFF;
+  color: #0060B6;
 }
 
 button {
