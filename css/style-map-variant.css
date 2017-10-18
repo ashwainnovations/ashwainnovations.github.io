@@ -299,10 +299,11 @@ a {
   transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
   cursor: pointer;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #0060B6;
 }
 a:hover {
-  color: white;
+  color:#0060B6;
+  font-weight: 700;
   text-decoration: none !important;
   outline: none !important;
 }
@@ -710,7 +711,7 @@ sup {
 #right-side .content span.separator {
   display: block;
   height: 2px;
-  background: black;
+  background: #666666;
   width: 100%;
   margin: 50px 0 60px;
 }
